@@ -1,0 +1,28 @@
+# Dependências
+node_modules/
+
+# Chaves de API e Variáveis de Ambiente
+.env
+.env*.local
+
+# Executáveis locais
+yt-dlp.exe
+server/yt-dlp.exe
+
+# Vídeos Exportados e Arquivos Temporários
+exports/
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.wav
+*.mp3
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Sistema
+.DS_Store
+Thumbs.db
